@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecalimited</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .header, .footer {
+            background-color: #6200ea;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .app-header {
+            display: flex;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .app-header img {
+            width: 96px;
+            height: 96px;
+            margin-right: 20px;
+        }
+        .app-header .app-title {
+            flex-grow: 1;
+        }
+        .app-header .app-title h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .app-header .app-title p {
+            margin: 5px 0;
+            color: #777;
+        }
+        .app-header .install-btn {
+            background-color: #0a74da;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .app-header .install-btn:hover {
+            background-color: #084d9e;
+        }
+        .app-details {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .app-details div {
+            flex: 1;
+            text-align: center;
+        }
+        .rating {
+            color: #ffa000;
+        }
+        .app-description, .reviews, .instructions {
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .reviews .review {
+            border-top: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .reviews .review:first-child {
+            border-top: none;
+        }
+        .reviews .review .author {
+            font-weight: bold;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>TECA-LIMITED</h1>
+    </header>
+    <div class="container">
+        <div class="app-header">
+            <img src="assets/teca.png" alt="App Icon">
+            <div class="app-title">
+                <h1>Teca</h1>
+                <p>Welcome all</p>
+            </div>
+            
+        </div>
+        <div class="app-details">
+            <div>
+                <p><strong>Number of Visits</strong></p>
+                <p>1,000,000+</p>
+            </div>
+            <div>
+                <p><strong>Rating</strong></p>
+                <p class="rating">★★★★☆ 4.5</p>
+            </div>
+            <div>
+                <p><strong>Rank</strong></p>
+                <p>#5 in Productivity</p>
+            </div>
+        </div>
+        <div class="app-description">
+            <h2>TECA-LIMITED</h2>
+            <p>Welcome to TECA-LIMITED, where technology and innovation meet excellence. As a premier private company, we specialize in providing cutting-edge technological solutions tailored to meet the unique needs of our clients. Our team of experts is dedicated to delivering high-quality services in software development, IT consulting, and digital transformation!</p>
+        </div>
+        <div class="instructions">
+            <h2>At TECA-LIMITED,</h2>
+            
+                 we believe in the power of technology to transform businesses and drive growth. Our mission is to empower our clients by offering customized solutions that enhance efficiency, productivity, and profitability. Whether you're a small startup or a large enterprise, we are committed to helping you navigate the complexities of the digital landscape.
+                 Join us at TECA-LIMITED and experience the difference that expertise and innovation can make. Together, we can achieve extraordinary results.
+            
+        </div>
+        <div class="reviews">
+            <h2>User Reviews</h2>
+            <div class="review">
+                <p class="author">Jane Doe</p>
+                <p class="rating">★★★★★ 5.0</p>
+                <p>Amazing company! It has completely changed the way I manage my tasks.</p>
+            </div>
+            <div class="review">
+                <p class="author">John Smith</p>
+                <p class="rating">★★★★☆ 4.0</p>
+                <p>Would love to see more updates in the future.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 My App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
