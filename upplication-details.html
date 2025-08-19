@@ -360,8 +360,20 @@
 
         let fee = 0.00;
         let savingamount = 0.00;
-        
-        if (lims >= 15000) {
+
+        if (lims >= 55000) {
+            fee = 92.00;
+            savingamount = 2050.00;
+            //lims = lims - fee;
+        } else  if(lims >= 41000) {
+            fee = 92.00;
+            savingamount = 1475.00;
+            //lims = lims - fee;
+        } else  if(lims >= 29000) {
+            fee = 92.00;
+            savingamount = 945.00;
+            //lims = lims - fee;
+        } else  if(lims >= 15000) {
             fee = 92.00;
             savingamount = 325.00;
             //lims = lims - fee;
@@ -371,7 +383,7 @@
             //lims = lims - fee;
         } else if (lims >= 7000) {
             fee = 68.00;
-            savingamount = 255.00;
+            savingamount = 215.00;
             //lims = lims - fee;
         } else if (lims >= 5000) {
             fee = 57.00;
@@ -407,4 +419,5 @@
     <script src="loan-details.js"></script>
     <!--script src="index.js"></script-->
 </body>
+
 </html>
