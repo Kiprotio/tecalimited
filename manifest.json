@@ -1,7 +1,7 @@
 {
-    "name": "Inua Loans",
-    "short_name": "Inua Loans",
-    "description": "Start earning up to 5000/= straight to your Mpesa with high-paying online writing jobs and remote work opportunities.",
+    "name": "Tala Kash",
+    "short_name": "Tala Kash",
+    "description": "Instant Kash Upto 50,000/= straight to your Mpesa.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#e6f7f7",
@@ -48,4 +48,5 @@
             "type": "image/png"
         }
     ]
+
 }
