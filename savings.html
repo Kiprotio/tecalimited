@@ -200,7 +200,7 @@
     <script>
         const name = localStorage.getItem("name") || "John Doe";
         const fname = name.split(' ')[0];
-        document.getElementById("usernames").textContent = "Congratulations!" + ", ";
+        document.getElementById("usernames").textContent = "Congratulations!" + " ";
 
         function getRandomLimit(min, max) {
             return Math.floor(Math.random() * (max - min + 1) + min) - (Math.floor(Math.random() * (max - min + 1) + min) % 10);
@@ -280,6 +280,7 @@
 </body>
 
 </html>
+
 
 
 
